@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://semantic-ui.com/examples/theming.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Standard Meta -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Theming - Semantic</title>
+  <link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css">
+
+  <script src="./Theming - Semantic_files/jquery.min.js"></script>
+  <script src="./Theming - Semantic_files/iframe.js"></script>
+
+  <style type="text/css">
+    body > .ui.container {
+      margin-top: 3em;
+    }
+    iframe {
+      border: none;
+      width: calc(100% + 2em);
+      margin: 0em -1em;
+      height: 300px;
+    }
+    iframe html {
+      overflow: hidden;
+    }
+    iframe body {
+      padding: 0em;
+    }
+
+    .ui.container > h1 {
+      font-size: 3em;
+      text-align: center;
+      font-weight: normal;
+    }
+    .ui.container > h2.dividing.header {
+      font-size: 2em;
+      font-weight: normal;
+      margin: 4em 0em 3em;
+    }
+
+
+    .ui.table {
+      table-layout: fixed;
+    }
+  </style>
+<script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script></head>
+<body cz-shortcut-listen="true">
+
+<div class="ui container">
+
+  <h1>Theming Examples</h1>
+
+  <h2 class="ui dividing header">Site</h2>
+  <iframe src="./Theming - Semantic_files/site.html" width="100%" scrolling="no" id="iFrameResizer0" style="overflow: hidden; height: 476px;"></iframe>
+
+  <h2 class="ui dividing header">Menu</h2>
+  <iframe src="./Theming - Semantic_files/menu.html" width="100%" scrolling="no" id="iFrameResizer1" style="overflow: hidden; height: 441px;"></iframe>
+
+  <h2 class="ui dividing header">Buttons</h2>
+  <iframe src="./Theming - Semantic_files/button.html" width="100%" scrolling="no" id="iFrameResizer2" style="overflow: hidden; height: 701px;"></iframe>
+
+  <h2 class="ui dividing header">Table</h2>
+  <iframe src="./Theming - Semantic_files/table.html" width="100%" scrolling="no" id="iFrameResizer3" style="overflow: hidden; height: 1455px;"></iframe>
+
+  <h2 class="ui dividing header">Input</h2>
+  <iframe src="./Theming - Semantic_files/input.html" width="100%" scrolling="no" id="iFrameResizer4" style="overflow: hidden; height: 339px;"></iframe>
+
+
+  <h2 class="ui dividing header">Card</h2>
+  <iframe src="./Theming - Semantic_files/card.html" width="100%" scrolling="no" id="iFrameResizer5" style="overflow: hidden; height: 1125px;"></iframe>
+
+
+
+</div>
+
+
+<script>
+$('iframe').iFrameResize({
+  autoResize: true,
+  heightCalculationMethod: 'bodyScroll'
+});
+</script>
+
+
+
+</body></html>
