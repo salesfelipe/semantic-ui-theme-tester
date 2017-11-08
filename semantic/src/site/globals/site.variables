@@ -1,3 +1,32 @@
 /*******************************
      User Global Variables
 *******************************/
+
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Montserrat';
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @red;
+@secondaryColor      : @black;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@red              : #E75460;
+@green            : #30524F;
+@black            : #4F5562;
+@yellow           : #F9F8E0;
+@olive            : #95BC89;
+@blue             : #9CD3F1;
+@grey             : #EDEDED;
+@white            : #F9F9F9;
+

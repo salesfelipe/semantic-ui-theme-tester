@@ -99,7 +99,7 @@
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -107,7 +107,7 @@
   line-height: 1.21428571em;
   padding: 0.67857143em 1em;
   font-size: 1em;
-  background: #FFFFFF;
+  background: #F9F9F9;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
   border-radius: 0.28571429rem;
@@ -123,7 +123,7 @@
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
   padding: 0.78571429em 1em;
-  background: #FFFFFF;
+  background: #F9F9F9;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
   color: rgba(0, 0, 0, 0.87);
@@ -162,7 +162,7 @@
   display: block;
   height: auto;
   width: 100%;
-  background: #FFFFFF;
+  background: #F9F9F9;
   border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 0.28571429rem;
   -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
@@ -259,7 +259,7 @@
 
 .ui.form .field .prompt.label {
   white-space: normal;
-  background: #FFFFFF !important;
+  background: #F9F9F9 !important;
   border: 1px solid #E0B4B4 !important;
   color: #9F3A38 !important;
 }
@@ -371,7 +371,7 @@
   color: rgba(0, 0, 0, 0.95);
   border-color: #85B7D9;
   border-radius: 0.28571429rem;
-  background: #FFFFFF;
+  background: #F9F9F9;
   -webkit-box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
           box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
 }
@@ -379,7 +379,7 @@
   color: rgba(0, 0, 0, 0.95);
   border-color: #85B7D9;
   border-radius: 0.28571429rem;
-  background: #FFFFFF;
+  background: #F9F9F9;
   -webkit-box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
           box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
   -webkit-appearance: none;
@@ -449,7 +449,7 @@
 .ui.form .fields.error .field .corner.label,
 .ui.form .field.error .corner.label {
   border-color: #9F3A38;
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 .ui.form .fields.error .field textarea,
 .ui.form .fields.error .field select,
@@ -635,7 +635,7 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-color: #EDEDED rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 0.2em;
   -webkit-box-shadow: 0px 0px 0px 1px transparent;
@@ -681,7 +681,7 @@
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #DB2828;
+  color: #E75460;
 }
 .ui.form .required.fields:not(.grouped) > .field > label:after,
 .ui.form .required.fields.grouped > label:after,
@@ -733,7 +733,7 @@
 .ui.inverted.form input[type="text"],
 .ui.inverted.form input[type="file"],
 .ui.inverted.form input[type="url"] {
-  background: #FFFFFF;
+  background: #F9F9F9;
   border-color: rgba(255, 255, 255, 0.1);
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: none;

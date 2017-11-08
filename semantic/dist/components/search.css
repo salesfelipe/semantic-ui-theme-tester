@@ -27,7 +27,7 @@
   line-height: 1.21428571em;
   padding: 0.67857143em 1em;
   font-size: 1em;
-  background: #FFFFFF;
+  background: #F9F9F9;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
@@ -119,7 +119,7 @@
 }
 .ui.search > .results .result .title {
   margin: -0.14285714em 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
@@ -131,7 +131,7 @@
 }
 .ui.search > .results .result .price {
   float: right;
-  color: #21BA45;
+  color: #30524F;
 }
 
 /*--------------
@@ -142,7 +142,7 @@
   padding: 1em 1em;
 }
 .ui.search > .results > .message .header {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
@@ -176,7 +176,7 @@
 
 .ui.search > .prompt:focus {
   border-color: rgba(34, 36, 38, 0.35);
-  background: #FFFFFF;
+  background: #F9F9F9;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -208,7 +208,7 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #767676 transparent transparent;
+  border-color: #EDEDED transparent transparent;
   border-style: solid;
   border-width: 0.2em;
   -webkit-box-shadow: 0px 0px 0px 1px transparent;
@@ -288,7 +288,7 @@
 }
 .ui.search.selection > .icon.input > .remove.icon:hover {
   opacity: 1;
-  color: #DB2828;
+  color: #E75460;
 }
 
 /*--------------
@@ -324,7 +324,7 @@
 
 /* Category Result */
 .ui.category.search > .results .category .result {
-  background: #FFFFFF;
+  background: #F9F9F9;
   margin-left: 100px;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
@@ -340,7 +340,7 @@
 .ui.category.search > .results .category > .name {
   width: 100px;
   background: transparent;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   float: 1em;
   float: left;

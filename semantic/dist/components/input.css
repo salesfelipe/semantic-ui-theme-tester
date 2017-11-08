@@ -37,9 +37,9 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.21428571em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.67857143em 1em;
-  background: #FFFFFF;
+  background: #F9F9F9;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
   border-radius: 0.28571429rem;
@@ -127,7 +127,7 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #767676 transparent transparent;
+  border-color: #EDEDED transparent transparent;
   border-style: solid;
   border-width: 0.2em;
   -webkit-box-shadow: 0px 0px 0px 1px transparent;
@@ -141,7 +141,7 @@
 .ui.input.focus input,
 .ui.input input:focus {
   border-color: #85B7D9;
-  background: #FFFFFF;
+  background: #F9F9F9;
   color: rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -227,7 +227,7 @@
 
 /* Transparent Inverted */
 .ui.transparent.inverted.input {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 .ui.transparent.inverted.input input {
   color: inherit;

@@ -20,7 +20,7 @@
   top: 50%;
   left: 50%;
   text-align: left;
-  background: #FFFFFF;
+  background: #F9F9F9;
   border: none;
   -webkit-box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
@@ -61,7 +61,7 @@
   z-index: 1;
   opacity: 0.8;
   font-size: 1.25em;
-  color: #FFFFFF;
+  color: #F9F9F9;
   width: 2.25rem;
   height: 2.25rem;
   padding: 0.625rem 0rem 0rem 0rem;
@@ -76,8 +76,8 @@
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #FFFFFF;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: #F9F9F9;
   margin: 0em;
   padding: 1.25rem 1.5rem;
   -webkit-box-shadow: none;
@@ -299,7 +299,7 @@
   border-radius: 0em;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 .ui.basic.modal > .header,
 .ui.basic.modal > .content,
@@ -307,7 +307,7 @@
   background-color: transparent;
 }
 .ui.basic.modal > .header {
-  color: #FFFFFF;
+  color: #F9F9F9;
 }
 .ui.basic.modal > .close {
   top: 1rem;
@@ -323,7 +323,7 @@
 /* Tablet and Mobile */
 @media only screen and (max-width: 991px) {
   .ui.basic.modal > .close {
-    color: #FFFFFF;
+    color: #F9F9F9;
   }
 }
 
