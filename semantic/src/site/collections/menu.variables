@@ -1,3 +1,7 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@tabularBackground:  @secondaryColor;
+@tabularTextColor: @white;
+@tabularActiveColor: @primaryColor;

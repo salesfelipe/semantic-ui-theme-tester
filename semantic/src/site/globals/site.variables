@@ -2,7 +2,6 @@
      User Global Variables
 *******************************/
 
-
 /*-------------------
        Fonts
 --------------------*/
@@ -29,4 +28,12 @@
 @blue             : #9CD3F1;
 @grey             : #EDEDED;
 @white            : #F9F9F9;
+
+
+/*-------------------
+        Page
+--------------------*/
+
+@pageBackground      : @white;
+@textColor           : @secondaryColor;
 
